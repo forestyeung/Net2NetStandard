@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedLibrary", "SharedLibrary\SharedLibrary.shproj", "{BE8FDE23-A113-4AF4-B36B-624C701BE245}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetStandardLibrary", "NetStandardLibrary\NetStandardLibrary.csproj", "{5BE35B8F-DCDD-40F3-B9C5-6E192D04D8DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullNetLibrary", "FullNetLibrary\FullNetLibrary.csproj", "{DAF45374-09E9-47D6-BC3B-586003AEEF62}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharedLibrary\SharedLibrary.projitems*{be8fde23-a113-4af4-b36b-624c701be245}*SharedItemsImports = 13
+		SharedLibrary\SharedLibrary.projitems*{daf45374-09e9-47d6-bc3b-586003aeef62}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5BE35B8F-DCDD-40F3-B9C5-6E192D04D8DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BE35B8F-DCDD-40F3-B9C5-6E192D04D8DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BE35B8F-DCDD-40F3-B9C5-6E192D04D8DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BE35B8F-DCDD-40F3-B9C5-6E192D04D8DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAF45374-09E9-47D6-BC3B-586003AEEF62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAF45374-09E9-47D6-BC3B-586003AEEF62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAF45374-09E9-47D6-BC3B-586003AEEF62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAF45374-09E9-47D6-BC3B-586003AEEF62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1A65AD9-175D-4DF9-8DFF-0DCB4FA1CC0F}
+	EndGlobalSection
+EndGlobal
